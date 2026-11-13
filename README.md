@@ -1,6 +1,5 @@
 # Linear Sentiment Classification
 
-**CSE 5525 — Homework 1**  
 **Author:** Yibo Su
 
 A binary sentiment classifier implemented from scratch using **logistic regression** and **stochastic gradient descent (SGD)**. The project explores how unigram, bigram, negation, and intensification features affect sentiment classification performance.
