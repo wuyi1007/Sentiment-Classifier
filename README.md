@@ -76,11 +76,11 @@ To skip generating blind-test predictions, add `--no_run_on_test`. By default, p
 
 ## Training Method
 
-For a sparse feature vector \(x\), the model calculates a linear score and converts it to a probability:
+For a sparse feature vector $\mathbf{x}$, the model calculates a linear score and converts it into a probability:
 
-\[
- p(y=1\mid x)=\sigma(w^\top x+b)
-\]
+$$
+P(y=1 \mid \mathbf{x}) = \sigma(\mathbf{w}^{\top}\mathbf{x} + b)
+$$
 
 SGD updates the weights and bias using the difference between the true label and predicted probability. The training examples are shuffled each epoch with a fixed random seed (`0`).
 
